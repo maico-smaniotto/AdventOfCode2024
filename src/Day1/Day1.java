@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -31,8 +33,8 @@ class Day1 {
         listL = new ArrayList<>();
         listR = new ArrayList<>();
 
-//        String filePath = "D:\\Desenv\\Git\\_maico-smaniotto\\AdventOfCode2024\\Day1\\test.txt";
-        String filePath = "D:\\Desenv\\Git\\_maico-smaniotto\\AdventOfCode2024\\Day1\\input.txt";
+//        String filePath = "D:\\Desenv\\Git\\_maico-smaniotto\\AdventOfCode2024\\src\\Day1\\test.txt";
+        String filePath = "D:\\Desenv\\Git\\_maico-smaniotto\\AdventOfCode2024\\src\\Day1\\input.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
